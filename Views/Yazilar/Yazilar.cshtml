@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Yazilar";
+}
+
+
+
+<div class="container " >
+    
+    <div class="row justify-content-center">
+        @foreach (var blgs in (List<Blog>)ViewData["BlogList"])
+        {
+            <div class="card m-1 col-3 ">
+    <img src="@blgs.ResimUrl" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">@blgs.Baslik</h5>
+        <p class="card-text">@blgs.Ozet</p>
+    </div>
+    </div>
+    }
+        </div>
+     
+</div>
+

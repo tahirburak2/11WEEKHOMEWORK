@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Iletisim";
+}
+<form asp-action="Submit" method="post">
+    <div class="form-group">
+        <label for="AdSoyad">Ad Soyad</label>
+        <input type="text" name="AdSoyad" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" name="Email" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Konu">Konu</label>
+        <input type="text" name="Konu" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Mesaj">Mesaj</label>
+        <textarea name="Mesaj" class="form-control" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Gönder</button>
+</form>
