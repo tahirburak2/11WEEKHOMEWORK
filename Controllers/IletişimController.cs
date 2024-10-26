@@ -16,8 +16,8 @@ namespace _11WEEKHOMEWORK.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Formu işleyin, ardından Home sayfasına yönlendirin.
-                return RedirectToAction("Index", "Home"); // HomeController'daki Index'e yönlendirme
+                
+                return RedirectToAction("Index", "Home");
             }
 
             return View("Index"); // Eğer doğrulama hatalıysa formu tekrar göster

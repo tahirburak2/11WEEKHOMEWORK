@@ -28,3 +28,4 @@
 /Users/tahirburakavar/Documents/github/11WEEKHOMEWORK/obj/Debug/net8.0/11WEEKHOMEWORK.pdb
 /Users/tahirburakavar/Documents/github/11WEEKHOMEWORK/obj/Debug/net8.0/11WEEKHOMEWORK.genruntimeconfig.cache
 /Users/tahirburakavar/Documents/github/11WEEKHOMEWORK/obj/Debug/net8.0/ref/11WEEKHOMEWORK.dll
+/Users/tahirburakavar/Documents/github/11WEEKHOMEWORK/obj/Debug/net8.0/11WEEKHOMEWORK.sourcelink.json
